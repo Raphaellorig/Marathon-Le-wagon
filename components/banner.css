@@ -1,0 +1,64 @@
+/* ===== BANNER COMPONENT ===== */
+
+.banner {
+  position: relative;
+  height: 100vh;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dark overlay on top of the image */
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.50);
+}
+
+/* Text on top of the overlay */
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: white;
+  max-width: 600px;
+}
+
+.banner-content h1 {
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ===== BUTTON ===== */
+.btn-blue {
+  display: inline-block;
+  background: #4a60d6;
+  color: white;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-blue:hover {
+  background: #3a4fb0;
+}

@@ -1,0 +1,29 @@
+/* ===== FORM / TYPEFORM SECTION ===== */
+
+.form-section {
+  background: #f5f5f5;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.form-section h2 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.form-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+/* Typeform widget container */
+.form-section [data-tf-live] {
+  min-height: 500px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
